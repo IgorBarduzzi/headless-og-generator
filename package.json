@@ -1,0 +1,44 @@
+{
+  "name": "headless-og-generator",
+  "version": "1.0.0",
+  "description": "High-performance headless OpenGraph social image generator with smart multi-tier caching and single-flight stampede protection",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "vitest run",
+    "bench": "tsx scripts/benchmark.ts"
+  },
+  "keywords": [
+    "opengraph",
+    "og-image",
+    "satori",
+    "resvg",
+    "cache",
+    "fastify",
+    "social-card",
+    "headless"
+  ],
+  "author": "Igor Barduzzi",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^11.3.0",
+    "@fastify/static": "^10.1.5",
+    "@fontsource/inter": "^5.3.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "fastify": "^5.12.5",
+    "react": "^19.0.0",
+    "satori": "^0.35.0",
+    "sharp": "^0.35.5",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}
