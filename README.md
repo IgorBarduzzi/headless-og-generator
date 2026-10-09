@@ -4,6 +4,7 @@
 
 ### High-performance, headless social card generator with multi-tier caching, deterministic hashing, and single-flight stampede protection.
 
+[![CI](https://github.com/IgorBarduzzi/headless-og-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/IgorBarduzzi/headless-og-generator/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-22+-green?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Fastify](https://img.shields.io/badge/Fastify-5.x-black?logo=fastify&logoColor=white)](https://fastify.dev/)
