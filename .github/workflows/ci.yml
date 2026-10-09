@@ -19,16 +19,12 @@ jobs:
         with:
           node-version: 22
           cache: 'npm'
-          cache-dependency-path: headless-og-generator/package-lock.json
 
       - name: Install dependencies
-        working-directory: headless-og-generator
         run: npm ci
 
       - name: Run unit & integration tests
-        working-directory: headless-og-generator
         run: npm test
 
       - name: Compile TypeScript
-        working-directory: headless-og-generator
         run: npm run build
